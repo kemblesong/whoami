@@ -3,16 +3,18 @@
  * whoami (kemblesong.com)
  * Author: Kemble Song 2016
  */
+
 html {
   height: 100%;
   min-height: 100%;
   margin: 0;
 }
+
 body {
   font-size: 62.5%;
-  font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
-  background-color: #f7f7f7;
-  color: #4d648d;
+  font-weight: 400;
+  font-family: 'Open Sans', 'Verdana', 'Helvetica' , 'Arial', sans-serif;
+  color: #222;
   width: 100%;
   height: 100%;
   min-height: 100%;
@@ -57,7 +59,7 @@ a:visited {
 
 .main {
   font-size: 6em;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .menu {
@@ -70,4 +72,56 @@ a:visited {
   padding-right: 1em;
   text-decoration: none;
   display: inline-block;
+}
+
+.bark {
+  color: #2e2300;
+}
+
+.seaweed-green {
+  color: #6e6702;
+}
+
+.bronze {
+  color: #c05805;
+}
+
+.goldenrod {
+  color: #db9501;
+}
+
+.crimson {
+  color: #8d230f;
+}
+
+.forest {
+  color: #1e434c;
+}
+
+.rust {
+  color: #9b4f0f;
+}
+
+.gold {
+  color: #c99e10;
+}
+
+.blue-gray {
+  color: #8593ae;
+}
+
+.steel {
+  color: #4a4e4d;
+}
+
+.aluminum {
+  color: #8c9e9e;
+}
+
+.pewter {
+  color: #7e675e;
+}
+
+.blush {
+  color: #dda288;
 }
