@@ -1,0 +1,73 @@
+/*
+ * main.css
+ * whoami (kemblesong.com)
+ * Author: Kemble Song 2016
+ */
+html {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+body {
+  font-size: 62.5%;
+  font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #4d648d;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3.6em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.4em;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.container {
+  width: 60em;
+  text-align: left;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  font-size: 6em;
+  font-weight: 400;
+}
+
+.menu {
+  display: block;
+  padding: 0;
+}
+
+.menu li {
+  font-size: 2em;
+  padding-right: 1em;
+  text-decoration: none;
+  display: inline-block;
+}
