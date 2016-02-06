@@ -1,2 +1,2 @@
-# home
-My business card on the internets
+# who am i ? (id -un)
+*=> kemble*
