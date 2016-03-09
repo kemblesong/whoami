@@ -98,21 +98,21 @@ a:hover {
 }
  
 .fade-in.one {
--webkit-animation-delay: 0.7s;
--moz-animation-delay: 0.7s;
-animation-delay: 0.7s;
+-webkit-animation-delay: 0.8s;
+-moz-animation-delay: 0.8s;
+animation-delay: 0.8s;
 }
  
 .fade-in.two {
--webkit-animation-delay: 1.8s;
--moz-animation-delay:1.8s;
-animation-delay: 1.8s;
+-webkit-animation-delay: 2.0s;
+-moz-animation-delay:2.0s;
+animation-delay: 2.0s;
 }
  
 .fade-in.three {
--webkit-animation-delay: 2.1s;
--moz-animation-delay: 2.1s;
-animation-delay: 2.1s;
+-webkit-animation-delay: 3.0s;
+-moz-animation-delay: 3.0s;
+animation-delay: 3.0s;
 }
 
 .bark {
