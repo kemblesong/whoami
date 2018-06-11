@@ -1,25 +1,30 @@
 {
-  "name": "react-static-starter",
+  "name": "whoami",
   "version": "1.0.0",
+  "description": "This is Kemble Song's website",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "serve": "serve dist -p 3000"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemblesong/whoami.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kemblesong/whoami/issues"
+  },
+  "homepage": "https://github.com/kemblesong/whoami#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1",
+    "standard": "^11.0.1"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-router": "^4.2.0",
-    "react-static": "^5.5.14",
-    "styled-components": "^3"
-  },
-  "devDependencies": {
-    "babel-plugin-styled-components": "^1.3.0",
-    "eslint-config-react-tools": "1.x.x",
-    "serve": "^6.1.0"
+    "autoprefixer": "^8.6.2",
+    "rellax": "^1.6.2"
   }
 }
