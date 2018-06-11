@@ -15,10 +15,32 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="https://use.typekit.net/orc6izu.css">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'orc6izu',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <style>
+    .wf-inactive,
+    .wf-active {
+      opacity: 1;
+      visibility: visible;
+      transition: all 0.6s ease;
+    }
+
+    .wf-loading {
+      opacity: 0;
+      visibility: hidden;
+    }
+  </style>
   <link rel="stylesheet" href="./styles.css">
 
   <!-- Favicon
@@ -36,7 +58,7 @@
 
     <section class="floating rellax" data-rellax-speed="2" data-rellax-zindex="-1">
       <ul class="floating__body menu">
-        <li><a class="menu__item" href="//ksong.co/resume">cv</a></li>
+        <li><a class="menu__item" href="./cv.pdf">cv</a></li>
         <li><a class="menu__item" href="//github.com/kemblesong">github</a></li>
         <li><a class="menu__item" href="//instagram.com/kemblog">instagram</a></li>
         <li><a class="menu__item" href="//kemblog.tumblr.com">tumblr</a></li>
