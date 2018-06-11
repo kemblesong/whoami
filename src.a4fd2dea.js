@@ -408,7 +408,7 @@ var define;
   return Rellax;
 }));
 
-},{}],3:[function(require,module,exports) {
+},{}],8:[function(require,module,exports) {
 'use strict';
 
 var _rellax = require('rellax');
@@ -418,7 +418,7 @@ var _rellax2 = _interopRequireDefault(_rellax);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 window.rellax = new _rellax2.default('.rellax');
-},{"rellax":12}],13:[function(require,module,exports) {
+},{"rellax":12}],14:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -447,7 +447,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '56376' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58492' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -588,5 +588,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[13,3], null)
+},{}]},{},[14,8], null)
 //# sourceMappingURL=/src.a4fd2dea.map
