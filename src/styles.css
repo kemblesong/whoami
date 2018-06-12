@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-  padding: 3em;
+  padding: 1.5em;
   padding-bottom: 0;
   color: #644D52;
 }
@@ -69,7 +69,7 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 small {
