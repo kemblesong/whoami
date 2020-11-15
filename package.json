@@ -1,30 +1,27 @@
 {
   "name": "whoami",
   "version": "1.0.0",
-  "description": "This is Kemble Song's website",
+  "description": "My business card on the interwebs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kemblesong/whoami.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Kemble Song",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kemblesong/whoami/issues"
   },
   "homepage": "https://github.com/kemblesong/whoami#readme",
-  "devDependencies": {
-    "parcel-bundler": "^1.8.1",
-    "standard": "^11.0.1"
-  },
   "dependencies": {
-    "autoprefixer": "^8.6.2",
-    "rellax": "^1.6.2"
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
