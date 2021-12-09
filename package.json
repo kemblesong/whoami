@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/kemblesong/whoami#readme",
   "dependencies": {
-    "next": "^10.0.1",
+    "next": "^11.1.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
