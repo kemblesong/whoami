@@ -22,11 +22,11 @@ const Home = () => (
       </section>
       <a href="//voicemail.band" className="call-to-action">
         <h2>Voice Mail</h2>
-        <small>- indie pop band</small>
+        <small>an indie pop band</small>
       </a>
       <a href="//stereo.vision" className="call-to-action">
         <h2>STEREO VISION</h2>
-        <small>- a culture magazine</small>
+        <small>a culture magazine</small>
       </a>
     </main>
 
