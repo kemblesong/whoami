@@ -20,17 +20,13 @@ const Home = () => (
           <li><a className="menu__item" href="mailto:yo@ksong.co">email me</a></li>
         </ul>
       </section>
-      <a href="//soundcloud.com/vanbeatoven" className="call-to-action">
-        <h2>VANBEATOVEN</h2>
-        <small>- freshly baked beats</small>
-      </a>
       <a href="//voicemail.band" className="call-to-action">
         <h2>Voice Mail</h2>
-        <small>- indie pop trio</small>
+        <small>- indie pop band</small>
       </a>
       <a href="//stereo.vision" className="call-to-action">
         <h2>STEREO VISION</h2>
-        <small>- coming soon</small>
+        <small>- a culture magazine</small>
       </a>
     </main>
 
@@ -65,7 +61,7 @@ const Home = () => (
         display: inline-block;
         background-color: #9287d1;
         font-size: 32px;
-        margin-right: auto;
+        margin-right: 32px;
         margin-bottom: 2rem;
         padding: 2rem;
       }
