@@ -5,28 +5,32 @@ const Home = () => (
     <Head>
       <title>Kemble Song</title>
       <meta name="theme-color" content="#ffffff" />
-      <meta name="description" content="Kemble Song is a software engineer and creative currently based in Melbourne, Australia" />
+      <meta name="description" content="Kemble Song is a developer and creative currently based in New York City" />
     </Head>
 
     <main>
       <section className="main">
-        <h1>Kemble is a <span className="highlight">developer</span> and <span className="highlight-lighter">creative</span> currently based in <span className="highlight-alt">Melbourne</span>.</h1>
+        <h1>Kemble is a <span className="highlight">developer</span> and <span className="highlight-lighter">creative</span> currently based in <span className="highlight-alt">New York City</span>.</h1>
       </section>
       <section className="floating">
         <ul className="floating__body menu">
           <li><a className="menu__item" href="//www.linkedin.com/in/kemblesong">linkedin</a></li>
           <li><a className="menu__item" href="//github.com/kemblesong">github</a></li>
-          <li><a className="menu__item" href="//instagram.com/kemblog">instagram</a></li>
+          <li><a className="menu__item" href="//instagram.com/kemblesong">instagram</a></li>
           <li><a className="menu__item" href="mailto:yo@ksong.co">email me</a></li>
         </ul>
       </section>
+      <a href="//procrastinationapp.com" className="call-to-action">
+        <h2>Do•er</h2>
+        <small>an app that helps you overcome procrastination, for good</small>
+      </a>
       <a href="//voicemail.band" className="call-to-action">
         <h2>Voice Mail</h2>
         <small>an indie pop band</small>
       </a>
       <a href="//stereo.vision" className="call-to-action">
         <h2>STEREO VISION</h2>
-        <small>a culture magazine</small>
+        <small>a magazine and art collective</small>
       </a>
     </main>
 
