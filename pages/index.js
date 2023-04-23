@@ -22,7 +22,7 @@ const Home = () => (
       </section>
       <a href="//procrastinationapp.com" className="call-to-action">
         <h2>Do•er</h2>
-        <small>an app that helps you overcome procrastination, for good</small>
+        <small>a science-based guide to overcoming procrastination</small>
       </a>
       <a href="//voicemail.band" className="call-to-action">
         <h2>Voice Mail</h2>
@@ -59,6 +59,8 @@ const Home = () => (
         opacity: 0.5;
         margin-left: auto;
         margin-top: -2rem;
+        border-radius: 20px;
+        margin-bottom: 2rem;
       }
 
       .call-to-action {
@@ -68,6 +70,7 @@ const Home = () => (
         margin-right: 32px;
         margin-bottom: 2rem;
         padding: 2rem;
+        border-radius: 20px;
       }
 
       .call-to-action:hover {
