@@ -28,9 +28,13 @@ const Home = () => (
         <h2>Voice Mail</h2>
         <small>an indie pop band</small>
       </a>
-      <a href="//stereo.vision" className="call-to-action">
+      <a href="//stereovision.substack.com/podcast" className="call-to-action">
         <h2>STEREO VISION</h2>
-        <small>a magazine and art collective</small>
+        <small>a podcast on fashion, film and music</small>
+      </a>
+      <a href="//zincai.work" className="call-to-action">
+        <h2>Zinc</h2>
+        <small>the real-time manager insights platform</small>
       </a>
     </main>
 
@@ -52,7 +56,6 @@ const Home = () => (
 
       .floating {
         background-color: #A49A87;
-        width: 75%;
         min-height: 300px;
         color: white;
         font-size: 36px;
